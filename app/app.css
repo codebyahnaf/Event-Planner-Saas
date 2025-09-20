@@ -1,15 +1,21 @@
 @import "tailwindcss";
 
-@theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+.hero{
+  width: screen;
+  height: 100vh;
+  background: radial-gradient(125% 125% at 50% 10%, #000000 40%, #0d1a36 100%);
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  gap: 5vh;
+
 }
-
-html,
-body {
-  @apply bg-white dark:bg-gray-950;
-
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
+.hero button{
+  background-color: blueviolet;
+  color: white;
+  width: 20vw;
+  height: 5vh;
+  border-radius: 5px;
+  cursor: pointer;
 }
