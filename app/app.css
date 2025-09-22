@@ -4,7 +4,7 @@
 .hero{
   width: screen;
   height: 100vh;
-  background: radial-gradient(125% 96% at 50% 10%, #000000 40%, #0d1a36 100%);
+  background: radial-gradient(95% 85% at 50% 10%, #0d1a36 30%, #000000 100%);
   display: grid;
   justify-items: center;
   align-content: center;
@@ -12,7 +12,7 @@
 
 }
 .hero button{
-  background-color: #484d8b50;
+  background-color:indianred;
   color: white;
   width: 15vw;
   height: 5vh;
@@ -36,4 +36,22 @@
   justify-items: center;
   align-content: center;
   gap: 7vh;
+}
+.about{
+  width: screen;
+  height: 100vh;
+  background-color: black;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  gap: 7vh;
+}
+.testimonials{
+  width: screen;
+  height: 130vh;
+  background-color: black;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  gap: 10vh;
 }
