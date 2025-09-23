@@ -18,6 +18,7 @@ export default function Hero(){
                 <br />from small meetups to large conferences.
             </div>
             <button className="cursor-pointer"> Get Started Today</button>
+            <div></div>
             
         </div>
     )

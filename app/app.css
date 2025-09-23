@@ -12,7 +12,7 @@
 
 }
 .hero button{
-  background-color:indianred;
+  background-color:#80808035;
   color: white;
   width: 15vw;
   height: 5vh;
@@ -20,7 +20,9 @@
   cursor: pointer;
 }
 .hero button:hover{
-  background-color: #484d8b;
+  color: black;
+  background-color: white;
+  box-shadow: 0 2px 20px white;
 }
 
 @keyframes reveal {
@@ -36,6 +38,9 @@
   justify-items: center;
   align-content: center;
   gap: 7vh;
+}
+#features-card{
+  /* box-shadow: inset 0 4px 10px -1px #ffffff50; */
 }
 .about{
   width: screen;
