@@ -6,7 +6,7 @@ export default function Hero(){
         <div className="hero">
             <LoginBtn/>
             <Navbar/>
-            <div className="text-8xl animate-[reveal_2s_ease-in-out_1]">
+            <div className="text-8xl animate-[reveal_2s_ease-in-out_1] mt-70">
                 🎂 💒 🎉 💍 💐
             </div>
             
@@ -17,7 +17,7 @@ export default function Hero(){
                 A complete event planning software to streamline your events 
                 <br />from small meetups to large conferences.
             </div>
-            <button className="cursor-pointer"> Get Started Today</button>
+            <button className="content-center text-center bg-[#80808035] text-white text-1xl w-50 h-13 cursor-pointer rounded-lg"> Get Started Today</button>
             <div></div>
             
         </div>
