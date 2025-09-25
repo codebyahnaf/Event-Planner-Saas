@@ -6,7 +6,7 @@ export default function Hero(){
         <div className="hero">
             <LoginBtn/>
             <Navbar/>
-            <div className="text-8xl animate-[reveal_2s_ease-in-out_1] mt-70">
+            <div className="text-8xl animate-[reveal_2s_ease-in-out_1] mt-70" id="glow">
                 🎂 💒 🎉 💍 💐
             </div>
             

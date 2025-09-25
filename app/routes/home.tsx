@@ -3,6 +3,7 @@ import type { Route } from "./+types/home";
 import Features from "~/components/feautres";
 import About from "~/components/about";
 import Testimonials from "~/components/testimonials";
+import Footer from "~/components/footer";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -17,6 +18,7 @@ export default function Home() {
           <Features />
           <About/>
           <Testimonials/>
+          <Footer/>
           </>
           )
   ;

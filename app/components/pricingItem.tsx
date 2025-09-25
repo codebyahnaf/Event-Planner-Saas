@@ -4,7 +4,7 @@ import type { ReactElement, JSXElementConstructor, ReactNode, ReactPortal, Key }
 export default function PricingItem({name, price, tagline, features}){
 
     return(
-        <ol className="grid gap-10 place-items-center p-10">
+        <ol className="grid gap-10 place-items-center p-10 animate-[reveal_2s_ease-in-out_1] timeline">
             <div className="text-4xl text-indigo-600 font-bold text-center">{name} </div>
             <div className="text-6xl text-white font-extrabold">{price} </div>
             <div className="text-3xl text-white font-normal text-center">{tagline} </div>
