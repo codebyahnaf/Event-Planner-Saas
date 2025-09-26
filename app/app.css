@@ -85,3 +85,12 @@ button:hover{
   align-content: center;
   gap: 10vh;
 }
+.case-studies{
+  width: screen;
+  height: 420vh;
+  background-color: black;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  gap: 10vh;
+}
