@@ -1,7 +1,7 @@
 export default [
     {
         "id": 1,
-        "name": "Free",
+        "name": "Free 🤩",
         "price": "$0/mo",
         "billing": "forever",
         "tagline": "Individuals planning small events",
@@ -16,7 +16,7 @@ export default [
 
     {
         "id": 2,
-        "name": "Pro",
+        "name": "Pro 😎",
         "price": "$9.99/mo",
         "billing": "per month or $99/year",
         "tagline": "Frequent planners & small businesses",
@@ -31,7 +31,7 @@ export default [
 
     {
         "id": 3,
-        "name": "Business",
+        "name": "Business 🦄",
         "price": "Custom",
         "billing": "contact sales",
         "tagline": "Pro-planners, agencies, and corporate events",
