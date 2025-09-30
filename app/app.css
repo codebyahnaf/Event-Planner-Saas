@@ -16,6 +16,7 @@ button:hover{
   background-color: white;
   box-shadow: 0 2px 20px white;
 }
+
 @keyframes slide-to-left {
   from{transform: translateX(200px); opacity: 0;}
   50%{transform: translateX(0); opacity: 1;}
